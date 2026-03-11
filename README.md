@@ -113,7 +113,7 @@ All Python scripts on the Franka side run under the **system Python 3.10** used 
 ├── target_poses.csv              # Pre-generated reach target poses (used by state_preparation)
 ├── target_positions.csv          # Pre-generated target positions
 ├── initial_pose.csv              # Starting joint configuration (not included — generate from your setup)
-└── exported_policy.pt            # Trained policy as TorchScript (not included — see Part 2)
+└── exported_policy.pt            # Trained policy as TorchScript (in Supplementary Scripts — see Part 2)
 ```
 
 Additional Python dependencies (install into the ROS system Python):
